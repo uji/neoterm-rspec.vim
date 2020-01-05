@@ -18,11 +18,22 @@ change `g:neoterm_rspec_cmd` if change RSpec command
 default is 'bin/rspec'
 
 ## Commands
-- TermRSpecAll
 Run RSpec command
-- TermRSpecFile
+```
+:TermRSpecAll
+```
+
 Run RSpec command for current file
-- TermRSpecLine
+```
+:TermRSpecFile
+```
+
 Run RSpec command for current line
-- TermRspecFailers
+```
+:TermRSpecLine
+```
+
 Run RSpec command with --only-failers option
+```
+:TermRspecFailers
+```
