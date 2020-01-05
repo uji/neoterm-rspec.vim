@@ -12,8 +12,9 @@ let g:loaded_neoterm_rspec = 1
 let g:neoterm_rspec_cmd='bin/rspec'
 
 command! TermRSpecAll call neoterm#do({ 'cmd': g:neoterm_rspec_cmd })
-command! -bar TermRSpecFile call termrspec#filespec()
-command! -bar TermRSpecLine call termrspec#linespec()
+command! TermRSpecFile call termrspec#file()
+command! TermRSpecLine call termrspec#line()
+command! TermRspecFailers call termrspec#failures()
 
 let &cpo = s:save_cpo
 unlet s:save_cpo
