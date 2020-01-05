@@ -3,7 +3,7 @@ set cpo&vim
 
 scriptencoding utf-8
 
-if exists('g:loaded_neoterm-rspec') " || get(g:, 'neoterm_loaded', 1)
+if exists('g:loaded_neoterm-rspec') || !exists('g:neoterm_loaded')
     finish
 endif
 
