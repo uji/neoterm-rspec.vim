@@ -33,7 +33,7 @@ Run RSpec command for current line
 :TermRSpecLine
 ```
 
-Run RSpec command with --only-failers option
+Run RSpec command with --only-failures option
 ```
-:TermRspecFailers
+:TermRspecFailures
 ```
