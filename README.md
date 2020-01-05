@@ -14,8 +14,9 @@ on_ft = ['ruby']
 
 # Usage
 ## settings
-change `g:neoterm_rspec_cmd` if change RSpec command
-default is 'bin/rspec'
+Change `g:neoterm_rspec_cmd` if change RSpec command
+
+Default Value is `'bin/rspec'`
 
 ## Commands
 Run RSpec command
