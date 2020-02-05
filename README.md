@@ -8,7 +8,7 @@ e.g using dein.vim
 repo = 'kassio/neoterm'
 
 [[plugins]]
-repo = 'ujiprog/neoterm-rspec.vim'
+repo = 'uji/neoterm-rspec.vim'
 on_ft = ['ruby']
 ```
 
